@@ -1,0 +1,75 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  
+  background-image: url('https://images.unsplash.com/photo-1550686041-366ad85a1355?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+  background-size: cover;
+  background-position: right top 22%;
+  height: 93vh;
+  padding: 25px;
+}
+
+.input { 
+  padding: 15px;
+  width: 80%;
+  margin-top: 20px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  font-size: 20px;
+} 
+
+.input:focus {
+  outline: none;
+}
+
+.welcome {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  
+}
+
+.error {
+  color: red;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 10px 10px 80px rgba(0, 0, 0 , 0.3);
+  backdrop-filter: blur(5px);
+  margin-top: 50px;
+  padding: 26px;
+}
+
+.weather-data {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city {
+  font-size: 30px;
+  font-weight: 200;
+  margin: 0;
+}
+
+.temp {
+  font-size: 90px;
+  margin: 16px 0;
+}
+
+.weather-box {
+  display: flex;
+  gap: 2rem;
+}
+
+.weather {
+  font-size: 30px;
+  font-weight: 200;
+  margin: 0;
+}
